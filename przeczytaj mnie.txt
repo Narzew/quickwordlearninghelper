@@ -1,0 +1,71 @@
+QuickWordLearningHelper v 3.00 by Narzew
+
+Program do nauki s³ówek w ró¿nych jêzykach i nie tylko ;)
+
+WejdŸ w lang.ini i zmieñ english na polish :)
+W lang.ini zmieniasz jêzyk programu.
+
+Jak u¿ywaæ programu??
+
+Podaj nazwê pliku z list¹ s³ów (bez .dat)
+Wszystkie pliki z listami s³ów umieœæ w katalogu Wordlists/
+Komputer podaje ci s³owo.
+Ty wpisujesz odpowiedŸ :)
+:-)
+To wszystko!
+
+JEŒLI WIDZISZ B£¥D: Error with loading language
+Wklej swój plik jêzyka do katalogu Languages/
+Wpisz nazwê (bez .dat) jêzyka w pliku lang.ini
+
+Jak stworzyæ swój plik jêzykowy (t³umaczenie)??
+Mo¿e byæ problem ze znakami poza zestawem ASCII-7BIT.
+
+Prosto! U¿yj wbudowanego edytora jêzyka
+Utworzony plik lang.dat skopiuj do folderu languages (zmieñ jego nazwê)
+
+Jak stworzyæ swoj¹ listê s³ów??
+
+Stwórz plik ze struktur¹:
+
+slowo     odpowiedz
+slowo2     odpowiedz2
+slowo3     odpowiedz3
+
+Daj 5 pustych znaków (spacji) pomiêdzy s³owem a odpowiedzi¹.
+Zapisz w pliku i skompiluj u¿ywaj¹c kompilatora list slow :)
+
+Po skompilowaniu kolekcji mo¿esz :
+
+- u¿yæ ich w programie (skopiuj do katalogu Wordlists/)
+- podzieliæ siê ni¹ z przyjació³mi :)
+- umieœciæ j¹ w internecie :)
+
+Zapamiêtaj :
+
+- listy s³ów musz¹ posiadaæ ro¿szerzenie .dat
+- listy s³ów musz¹ byæ umieszczone w katalogu Wordlists/
+- listy s³ów musz¹ byæ skompilowane
+
+To wszystko co trzeba wiedzieæ :)
+Nigdy nie dawaj czystych kolekcji !!! :)
+
+Chcesz przetestowaæ??
+Spróbuj przyk³adow¹ listê s³ów :)!
+Wpisz 'example' w oknie wyboru listy s³ów :)
+
+Uwaga!!! (Dla posiadaczy polskiej wersji jêzykowej...)
+Wpisuj nazwy s³ów/odpowiedzi bez polskich znaków, bo system mo¿e ich dobrze nie rozpoznaæ.. (Problem z kodowaniem znaków ...) Ten bug jest znany i postaram siê go naprawiæ w jak najszybszym czasie.
+
+Komentarz do wersji 3.00
+
+Czym jest odwracanie list s³ów?
+
+To zamiana kolejno np. mamy listê polsko-angielsk¹, odwrócenie da nam angielsko-polsk¹ itp.
+
+Zobacz changelog.txt !!! :)
+
+Copyright by 2013, Narzew
+narzew@gmail.com
+02.01.2013
+Ruby is the best language in the world!!!

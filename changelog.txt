@@ -1,0 +1,32 @@
+Version 1.00
+
+Released 25 September 2012
+25.09.2012
+
+- Basic Release
+
+
+Version 2.00
+
+Released 2 October 2012
+02.10.2012
+
+- Language system
+- Bad written words list
+- Collection info system
+- More statistics
+- Error rescuerement system
+
+
+Version 3.00
+
+Released 2 January 2012
+02.01.2012
+
+- % of correctness added
+- Bad written words list with correct words
+- More statistics
+- More friendly interface
+- Allow to reverse wordlists
+- Quick Word Learning Helper, Wordlist Compiler and Language Editor now in one program
+- Now smaller program (from 9 MB v 2.00 to 552 kb v 3.00)

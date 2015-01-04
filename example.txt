@@ -1,0 +1,15 @@
+# Example collection before compilation. Delete this line before compilation!
+mountain     gora
+valley     dolina
+peach     brzoskwinia
+apple     jablko
+orange     pomarancza
+juice     sok
+banana     banan
+road     droga
+lake     jezioro
+river     rzeka
+desert     pustynia
+volcano     wulkan
+jungle     dzungla
+forest     las
