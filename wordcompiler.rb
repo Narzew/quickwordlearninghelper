@@ -3,7 +3,7 @@ begin
 
 print "Quick Word Learning Helper\n"
 print "WORD COMPILER by NARZEW\n"
-print "v 1.00\n"
+print "v 2.00\n"
 print "by Narzew\n"
 print "HTTP://WWW.HACKTUT.ORG\n"
 print "Product is FREEWARE.\n"
@@ -13,15 +13,27 @@ print "Type the words file name you want to compile.\n"
 $wordfile = gets.chomp!
 print "\nType the destination file.\n"
 $destination = gets.chomp!
+print "\nType the wordlist name.\n"
+$name = gets.chomp!
+print "\nType the wordlist author.\n"
+$author = gets.chomp!
 print "\nType the wordlist description.\n"
 $description = gets.chomp!
+print "\n\nPress ENTER to start compilation.\n\n"
+$stdin.gets
+
+$time = Time.now
 
 print "\n\n\nCompilling...\n"
 
 file = File.open($wordfile, 'rb')
 data = file.read
 file.close
-$wordlist = [Zlib::Deflate.deflate($description,9), Zlib::Deflate.deflate(data,9)]
+$wordlist = [Zlib::Deflate.deflate($description,9),
+ Zlib::Deflate.deflate(data,9),
+ Zlib::Deflate.deflate($author),
+ Zlib::Deflate.deflate($name)
+ ]
 file = File.open($destination, 'wb')
 Marshal.dump($wordlist, file)
 file.close

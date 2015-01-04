@@ -6,7 +6,7 @@ begin
 
 print "Quick Word Learning Helper\n"
 print "LANGUAGE EDITOR by NARZEW\n"
-print "v 1.00\n"
+print "v 2.00\n"
 print "by Narzew\n"
 print "HTTP://WWW.HACKTUT.ORG\n"
 print "Product is FREEWARE.\n"
@@ -28,7 +28,11 @@ $lang_prefs = [
 "Bad words : ",
 "One time more?? [y/n]",
 "Press Enter to exit.",
-"File do not exist."
+"File do not exist.",
+"Wordlist Information",
+"Name : ",
+"Author : ",
+"Description : "
 ]
 
 if $make_default == false
